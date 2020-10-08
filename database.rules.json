@@ -1,0 +1,13 @@
+{
+  "rules": {
+    "orders":{
+      	".read":"auth != null",
+        ".write":"auth != null",
+          ".indexOn":["userId"]
+    },
+     "ingredients":{
+      	".read":"true",
+        ".write":"true",
+    } 
+  }
+}
