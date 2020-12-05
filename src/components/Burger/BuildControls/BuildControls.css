@@ -49,3 +49,10 @@
         transform: scale(1);
     }
 }
+
+@media(max-width:325px){
+    .OrderButton{
+        width: 70vw;
+        padding: 8px;
+    }
+}

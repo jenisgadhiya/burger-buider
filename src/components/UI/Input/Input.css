@@ -1,5 +1,6 @@
 .Input{
-    width: 100%;
+    width: 88%;
+    margin: auto;
     padding: 10px;
     box-sizing: border-box;
 }
